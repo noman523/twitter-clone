@@ -19,16 +19,23 @@ module.exports = {
       },
       green: {
         default: '#22C55E',
+        extralight: 'rgba(34, 197, 94, 0.1)',
+      },
+      pink: {
+        default: '#DB2777',
+        extralight: 'rgba(219, 39, 119, 0.1)',
       },
       white: {
         default: '#ffffff',
       },
-      
+     
     },
     extend: {},
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }
