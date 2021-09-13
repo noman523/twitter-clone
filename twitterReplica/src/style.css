@@ -2,3 +2,149 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+
+
+.leftsidemenu{
+    @apply flex items-center my-1 px-4 py-2.5 text-gray-level6 hover:bg-gray-level3 rounded-full text-xl text-gray-level6;
+}
+.status-helper-btn{
+    @apply p-2 mx-1 rounded-full text-lg font-bold hover:bg-blue-level1 text-white-default;
+}
+.tweet-lg{
+    @apply py-2.5 px-4 mx-1 rounded-full text-lg font-bold block lg:w-11/12 sm:w-auto  bg-blue-level3 hover:bg-blue-level4 text-white-default;
+}
+.tweet-sm{
+    @apply bg-blue-level4 opacity-50  text-sm font-bold text-white-default rounded-full px-5 py-2 py-1;
+}
+
+.trendsdiv{
+    @apply py-2 px-4 flex justify-between hover:bg-gray-level3 cursor-pointer;
+}
+.trendsdiv .text{
+    @apply pt-2;
+}
+.trendsdiv .category {
+    @apply text-sm text-gray-level5;
+}
+.trendsdiv .hashtag {
+    @apply font-bold text-gray-level6 font-bold;
+}
+.trendsdiv .tweetcount {
+    @apply text-sm text-gray-level5;
+}
+
+/* .option{
+    @apply w-10 h-10 hover:bg-blue-level1 hover:text-blue-level4 rounded-full text-center gray-level3 p-2 group;
+} */
+
+.post-div{
+    @apply hover:bg-gray-level3 cursor-pointer pb-3 border-b border-gray-level3;
+}
+
+.post-div .header{
+    @apply flex justify-between  px-4;
+}
+.post-div .header .profile{
+    @apply flex justify-items-start  pt-4 mb-2 cursor-pointer;
+}
+.post-div .header .profile img{
+    @apply w-10 h-10 mt-0.5;
+}
+.post-div .header .profile .infoandstatus{
+    @apply pl-4;
+}
+.post-div .header .profile .infoandstatus .info p{
+    @apply text-base font-bold text-gray-level6 leading-tight;
+}
+
+.post-div .header .profile .infoandstatus .info .name{
+    @apply text-base font-bold text-gray-level6;
+}
+
+.post-div .header .profile .infoandstatus .info  .others{
+    @apply text-base font-normal text-gray-level5;
+}
+.post-div .header .profile .infoandstatus .status{
+    @apply text-base font-normal text-gray-level6;
+}
+
+.post-div .body{
+    @apply ml-16 pl-2 mr-4 ;
+}
+.post-div .body .imagecontainer{
+    @apply bg-auto md:bg-contain rounded-3xl h-2/4 ;
+}
+
+.post-div .footer{
+    @apply ml-16 pl-2 mr-4  ;
+}
+.post-div .footer .footerbody{
+    @apply pt-3 w-11/12 flex justify-between;
+}
+.post-div .footer .footerbody button{
+    @apply text-gray-level5 group flex items-center;
+}
+
+
+
+
+
+
+.search{
+    @apply block w-full border-none rounded-3xl focus:outline-none py-2 bg-gray-level3 text-gray-level6 text-base pl-12 pr-3 focus:bg-white-default focus:ring-1 focus:ring-blue-level4;
+}
+
+.showlg{
+    @apply hidden lg:block;
+}
+
+.btn-more{
+    @apply w-10 h-10 hover:bg-blue-level1 hover:text-blue-level4 rounded-full text-center  p-2 group mt-2;
+}
+.btn-more btn-svg{
+    @apply h-6 w-6 mx-auto text-gray-level5 group-hover:text-blue-level4;
+}
+
+.btn-follow{
+    @apply bg-gray-level6 text-sm font-bold text-white-default rounded-full px-3 py-1;
+}
+
+.follow-div{
+    @apply py-2 px-4 flex justify-between items-center hover:bg-gray-level3 cursor-pointer;
+}
+
+.follow-div-body{
+    @apply pl-3 mr-auto;
+}
+.follow-div-body .namewithbadge{
+    @apply flex items-center;
+}
+.follow-div-body .namewithbadge p{
+    @apply text-base font-bold text-gray-level6 leading-tight;
+}
+.follow-div-body .username{
+    @apply text-sm font-normal text-gray-level5 leading-tight;
+}
+.graycard{
+    @apply bg-gray-level1 rounded-xl mx-5 overflow-hidden mb-4;
+}
+.graycard .header{
+    @apply h-auto py-2 px-4 flex justify-between items-center;
+}
+.graycard .header p{
+    @apply text-xl text-gray-level6 font-black;
+}
+
+.graycard .header .setting{
+    @apply w-10 h-10  hover:bg-gray-level4 rounded-full text-center p-2 ;
+}
+.graycard .footer{
+    @apply py-3 px-4  hover:bg-gray-level3 cursor-pointer;
+}
+.graycard .footer p{
+    @apply text-base text-blue-level4;
+}
